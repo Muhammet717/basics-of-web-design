@@ -1,0 +1,200 @@
+<html>
+    <head>
+        <title>FinanceAPP.com</title>
+    </head>
+            <body>
+<h1 align="center" >FinanceAPP iş başvuru formu</h1>
+
+
+
+<table border="1" width="500" align="center">
+    <tr>
+        <td>tc kimlik numarası:</td>
+        <td>
+                <form action="" method="get" align="center" >
+                    <input type="text" name="tc" >
+                    
+                </form>
+        </td>
+        </tr>
+        <tr>
+            <td>isminiz: 
+                <p>soyisminiz:</p>
+            </td>
+            
+            <td>
+                <form action="" method="get" align="center">
+                    <input type="text" name="ad">
+        <p>
+                    <input type="text" name="soyis">
+                    </p>
+                </form>
+                </td>
+        </tr>
+        <tr>
+            <td>
+                cinsiyet:
+                
+            </td>
+            <td>
+                <form action="" method="get"  align="center">
+                    
+                    <input type="radio" name="cinsiyet" value="erkek"/>erkek
+                    <input type="radio" name="cinsiyet" value="kadın"/>kadın
+                    <p><input type="radio" name="cinsiyet" value="belirtmeki"/>belirtmek istemiyorum</p>
+
+                       
+                  
+                    <input type="text" name="dt" >
+                    
+                </form>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                <br> doğum tarihi:</br>
+                </td>
+            <td>
+                <input type="text" name="dt" >
+    </td>
+    </tr>
+                
+             <tr>
+                <td> uyruk:</td>
+                <td>
+                <form action="" method="get" align="center" >
+                   
+                    <input type="radio" name="cinsiyet" value="tr"/>tc
+                    <input type="radio" name="cinsiyet" value="diğer"/>diğer
+                  
+                </form>
+                </td>
+                </tr>
+                <tr>
+                    <td>öğrenim durumu</td>
+                    <td>
+
+                <form action="" method="get" align="center" >
+                 
+                    <select name="öğrenim">
+                        <option value="seç">seç</option>
+                        <option value="yüksek lisans">Yüksek Lisanas</option>
+                        <option value="ön lisans">Ön lisans</option>
+                        <option value="lise">Lise</option>
+
+                    </select>
+                  
+                </form>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                         ehliyet varmı?:</td>
+                    <td>
+                <form action="" method="get" align="center">
+                 
+                    <input type="radio" name="cinsiyet" value="evet"/>evet
+                    <input type="radio" name="cinsiyet" value="hayır"/>hayır
+                    
+                    <p>ehliyet tipi: <select name="e-tipi"></p>
+                        <option value="seç">seç</option>
+                        <option value="A tipi">A</option>
+                        <option value="B tipi">B</option>
+                        <option value="C tipi">C</option>
+                        <option value="D tipi">D</option>
+                    </select>
+                  </td>
+                </form>
+            
+            </tr>
+            <tr>
+       <td>
+                 <p>cep telefonu:</p>
+                 <p>E-posta adresi:</p>
+       </td>
+                <td>
+                <form action="" method="get" align="center" > 
+                    <input type="text" name="cep" >
+
+                  
+                 <p>   <input typr="text" name="e-posta"></p>
+                </form>
+                </td>
+                </tr>
+                <tr>
+                    <td>adresiniz</td>
+                    <td>
+                <form action="" method="get" align="center" >
+                 <textarea cols="45" rows="35"></textarea>
+                   
+                    </form>
+                    </td>
+                </tr>
+                 <tr>
+                    
+                        <td align="center"> ilgililendiği çalışma alanları</td>
+               <td> <form action="" method="get" align="center">
+                  
+                    <p><input type="checkbox" name="ilgi[]" value="ekonomi"/>ekonomi<br>
+                    <input type="checkbox" name="ilgi[]" value="yatırım"/>yatırım<br>
+                    <input type="checkbox" name="ilgi[]" value="borsa"/>borsa<br>
+                    <input type="checkbox" name="ilgi[]" value="etf"/>etf<br>
+                    <input type="checkbox" name="ilgi[]" value="yazılım"/>yazılım<br>
+                    <input type="checkbox" name="ilgi[]" value="dış ticaret"/>dış ticaret<br>
+                    </p>
+                </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        ASKERLİK DURUMU</td>
+                        <td>
+                        <select name="askerlik" >
+                            <option value="seçin">seç</option>
+                            <option value="tecilli">Tecilli</option>
+                            <option vaur="yapmış">Yapmış</option>
+                            <option value="muaf">Muaf</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">Yabancı Dil</td>
+                    <td>
+                    <input type="checkbox" name="en">İngilizce<br>
+                    <input type="checkbox" name="de">Almanca<br>
+                    <input type="checkbox" name="fr">Fransızca<br>
+                    <input type="checkbox" name="ing">İspanyolca<br>
+                    <input type="checkbox" name="es">Çince<br>
+                    <input type="checkbox" name="ru">Rusça<br>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            çalışmak istenilen ilçe</td>
+                            <td>
+                            <select name="askerlik" >
+                                <option value="seçin">seç</option>
+                                <option value="reyhnalı">reyhanlı</option>
+                                <option vaur="dumlupınar">dumlupınar</option>
+                                <option value="iskenderun">iskenderun</option>
+                                <option value="beylikdüzü">beylikdüzü</option>
+                                <option value="ceyhan">ceyhan</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Adli sicil kaydı yükleyiniz:</td>
+                        <td><input type="file" name="dosya"></td>
+                       
+                     </tr>
+                     <tr>
+                        <td>&nbsp;</td>
+                        <td><input type="submit" name="yukle" value="Yükle"></td>
+                     </tr>
+                 
+                </table>
+                iş başvurumuzu puanlayınız<br>
+                0<INPUT type=range name="oranla" MIN=0 MAX=100 VALUE=25 STEP=5>100
+                    <input type="submit"  ALIGN=left>
+
+            </body>
+                    </html>
